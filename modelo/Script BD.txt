@@ -1,0 +1,6 @@
+CREATE TABLE ejemplo(
+	id serial,
+	numero INT,
+	nombre VARCHAR(20),
+	CONSTRAINT pk_ejemplo PRIMARY KEY (id)
+);
